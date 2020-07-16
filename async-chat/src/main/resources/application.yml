@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: chat-hub
+  data:
+    mongodb:
+      uri: mongodb://barnwaldo:shakeydog@192.168.248.4:27017/sports?authSource=admin
+      auto-index-creation: false
